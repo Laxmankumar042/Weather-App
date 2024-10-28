@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temp Tracker</title>
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <form id="search">
+            <input type="text" placeholder="Search Your City" class="input-field">
+            </form>
+        </div>
+        <div class="weather-content">
+            <div>
+                <h1 class="weather-heading"></h1>
+                <p class="weather-sub-heading"></p>
+            </div>
+            <div class="weather-condition"></div>
+            <div class="weather-icon"></div>
+            <p class="temperature"></p>
+            <div class="minmax">
+                <p class="min"></p>
+                <p class="max"></p>
+            </div>
+        </div>
+        <div class="additional-content">
+            <div class="extra-info">
+                <div class="extra-info-left">
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+                <div class="extra-info-right">
+                    <p class="extra-info-right-top">Feels Like</p>
+                    <p class="feels-like"></p>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="extra-info-left">
+                    <i class="fa-solid fa-droplet"></i>
+                </div>
+                <div class="extra-info-right">
+                    <p class="extra-info-right-top">Humidity</p>
+                    <p class="humidity"></p>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="extra-info-left">
+                    <i class="fa-solid fa-wind"></i>
+                </div>
+                <div class="extra-info-right">
+                    <p class="extra-info-right-top">Wind Speed</p>
+                    <p class="wind"></p>
+                </div>
+            </div>
+            <div class="extra-info">
+                <div class="extra-info-left">
+                    <i class="fa-solid fa-arrows-left-right-to-line" style="transform: rotate(90deg);"></i>
+                </div>
+                <div class="extra-info-right">
+                    <p class="extra-info-right-top">Pressure</p>
+                    <p class="pressure"></p>
+                </div>
+            </div>
+        </div>    
+    
+    
+    
+    
+    <script src="script.js"></script>
+    </body>
+</html>
